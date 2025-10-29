@@ -19,7 +19,7 @@ gmailButton.onclick = () => {
 
 
 const parentBlock = document.querySelector(".parent_block")
-const Block = document.querySelector(".child_block");
+const ChildBlock = document.querySelector(".child_block");
 let x = 0;
 
 const moveBlock = () => {
@@ -29,5 +29,6 @@ const moveBlock = () => {
         requestAnimationFrame(moveBlock)
     }
 }
+
 
 moveBlock();
